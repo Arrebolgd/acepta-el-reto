@@ -10,7 +10,7 @@ public class problema595 {
 
         int numeroPruebas = input.nextInt();
 
-        for(int i = 0; i < numeroPruebas; i++)
+        for(int i = 0; i < input.nextInt(); i++)
             System.out.println(input.nextInt() / 100);
 
     }
